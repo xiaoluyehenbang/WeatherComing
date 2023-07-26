@@ -35,7 +35,7 @@ public class ApiMessageService {
         keyDTOS.add(KeyConfig.KEY_MI_YU);
         keyDTOS.add(KeyConfig.KEY_HOROSCOPE);
         keyDTOS.add(KeyConfig.KEY_HISTORY_TODAY);
-        keyDTOS.add(KeyConfig.KEY_XIN_GUAN);
+        // keyDTOS.add(KeyConfig.KEY_XIN_GUAN);
     }
     public String getApiMessage(KeyDTO keyDTO, User user){
         String result = null;
@@ -206,16 +206,16 @@ public class ApiMessageService {
      * @param province 省份
      * @return 新冠信息
      */
-    private  String getXinGuan(String province){
-        String url = "https://api.linhun.vip/api/yiqing?apiKey=c2278bb8c0aa62d017e0c17b9561537c&keyword=%s";
-        String result = HttpUtil.get(String.format(url, province));
-        JSONObject jsonObject = JSONUtil.parseObj(result);
-        JSONObject data = jsonObject.getJSONObject("data");
-        String time = jsonObject.getStr("UpTime");
-        String now = data.getStr("现存确诊");
-        String nowNo = data.getStr("现存无症状");
-        return time + "现存确诊:" + now + ",现存无症状:"+nowNo;
-    }
+    // private  String getXinGuan(String province){
+    //     String url = "https://api.linhun.vip/api/yiqing?apiKey=c2278bb8c0aa62d017e0c17b9561537c&keyword=%s";
+    //     String result = HttpUtil.get(String.format(url, province));
+    //     JSONObject jsonObject = JSONUtil.parseObj(result);
+    //     JSONObject data = jsonObject.getJSONObject("data");
+    //     String time = jsonObject.getStr("UpTime");
+    //     String now = data.getStr("现存确诊");
+    //     String nowNo = data.getStr("现存无症状");
+    //     return time + "现存确诊:" + now + ",现存无症状:"+nowNo;
+    // }
 
 
 
