@@ -11,13 +11,13 @@ public class WechatConfig {
      * 你的微信的APPID
      * appId
      */
-    public static final String VxAppId = "your VxAppId";
+    public static final String VxAppId = "wxd1a6a59bee16b5f2";
 
     /**
      * 你的微信的密钥
      * appSecret
      */
-    public static final String VxAppSecret = "your VxAppSecret";
+    public static final String VxAppSecret = "4f3af37baaee19c5a78f24634235978f";
 
     public static final List<User> userList = new ArrayList<>();
 
@@ -38,15 +38,15 @@ public class WechatConfig {
      */
     static {
         userList.add(getUser(
-                "这个人扫码后的微信号", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "微信消息模板ID", //要给这个人发送的模板ID
-                "pt", //咋称呼这个人
-                "江苏省南京市玄武区", //这个人的详细地址
-                "南京", //这个人在的城市
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+                "ocZdZ63xyOnGt4ZsM6YOGZCnsdkU", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "yzD7BM-bxarZDVbGGV4Ra0OYWNx8o15iosfpk7iiIe8", //要给这个人发送的模板ID
+                "小卢", //咋称呼这个人
+                "北京市昌平区", //这个人的详细地址
+                "北京", //这个人在的城市
+                new BirthDay(2001,12,25,true,false,"pt生日快乐！！"),
+                new BirthDay(2001,12,17,true,true,"生日快乐哦~~"),
+                new BirthDay(2023,12,24,false,true),
+                new BirthDay(2023,12,24,false,false,"要考研了！！！")
         ));
 
         userList.add(getUser(
