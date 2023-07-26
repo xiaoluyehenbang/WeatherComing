@@ -56,10 +56,10 @@ public class ApiMessageService {
             }
         }else if (KeyConfig.KEY_HISTORY_TODAY.equalsKey(keyDTO)){
             result = getHistoryToday();
-        }else if (KeyConfig.KEY_XIN_GUAN.equalsKey(keyDTO)){
-            String address = user.getAddress().split("省",2)[0];
-            result = getXinGuan(address);
-        }
+        }//else if (KeyConfig.KEY_XIN_GUAN.equalsKey(keyDTO)){
+        //     String address = user.getAddress().split("省",2)[0];
+        //     result = getXinGuan(address);
+        // }
         log.info("随机API接口为：{},获取的结果为：{}",keyDTO.getKey(),result);
         return result;
     }
