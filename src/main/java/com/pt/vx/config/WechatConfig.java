@@ -50,7 +50,7 @@ public class WechatConfig {
         ));
 
         userList.add(getUser(
-                "ocZdZ63xyOnGt4ZsM6YOGZCnsdkU",
+                "ocZdZ64cpqKkLvqZfOya-NiayZqk",
                 "yHxJ34Iy31_FfhibKtQ_XutMAD0dqlKdWwD1KAwTbgo",
                 "小卢",
                 "北京市昌平区",
