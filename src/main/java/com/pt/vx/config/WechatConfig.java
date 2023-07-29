@@ -38,7 +38,7 @@ public class WechatConfig {
      */
     static {
         userList.add(getUser(
-                "ocZdZ63xyOnGt4ZsM6YOGZCnsdkU", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "ocZdZ608QlUaUXQ1F1vdBj2pvhYk", //扫码关注你的测试号以后，测试平台会出现TA的微信号
                 "yHxJ34Iy31_FfhibKtQ_XutMAD0dqlKdWwD1KAwTbgo", //要给这个人发送的模板ID
                 "小胡", //咋称呼这个人
                 "石家庄市裕华区", //这个人的详细地址
@@ -50,15 +50,15 @@ public class WechatConfig {
         ));
 
         userList.add(getUser(
-                "ocZdZ64cpqKkLvqZfOya-NiayZqk",
+                "ocZdZ608QlUaUXQ1F1vdBj2pvhYk",
                 "yHxJ34Iy31_FfhibKtQ_XutMAD0dqlKdWwD1KAwTbgo",
                 "小卢",
                 "北京市昌平区",
                 "北京",
                 new BirthDay(2001,12,25,true,false,"生日快乐哦~~"),
                 new BirthDay(2001,12,25,true,false,"pt生日快乐！！"),
-                new BirthDay(2024,2,9,false,true),
-                new BirthDay(2024,2,9,false,false,"过年啦！！！")
+                new BirthDay(2023,12,24,false,true),
+                new BirthDay(2023,12,24,false,false,"过年啦！！！")
         ));
 
 
