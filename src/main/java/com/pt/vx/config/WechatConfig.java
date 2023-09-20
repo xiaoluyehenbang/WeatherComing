@@ -45,20 +45,20 @@ public class WechatConfig {
                 "石家庄", //这个人在的城市
                 new BirthDay(2001,12,17,true,false,"pt生日快乐！！"),
                 new BirthDay(2001,12,17,true,true,"生日快乐哦~~"),
-                new BirthDay(2023,12,24,false,true),
-                new BirthDay(2023,12,24,false,false,"要考研了！！！")
+                new BirthDay(2023,12,23,false,true),
+                new BirthDay(2023,12,23,false,false,"要考研了！！！")
         ));
 
         userList.add(getUser(
                 "ocZdZ63xyOnGt4ZsM6YOGZCnsdkU",
-                "yHxJ34Iy31_FfhibKtQ_XutMAD0dqlKdWwD1KAwTbgo",
+                "n9h84SxfH3KLSuGz7wjT9gOroJP1lv5q1q2yJW7UOLo",
                 "小卢",
                 "北京市昌平区",
                 "北京",
                 new BirthDay(2001,12,25,true,false,"生日快乐哦~~"),
                 new BirthDay(2001,12,25,true,false,"pt生日快乐！！"),
-                new BirthDay(2023,12,24,false,true),
-                new BirthDay(2023,12,24,false,false,"过年啦！！！")
+                new BirthDay(2023,12,23,false,true),
+                new BirthDay(2023,12,23,false,false,"过年啦！！！")
         ));
 
 
